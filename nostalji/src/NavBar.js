@@ -35,6 +35,9 @@ function NavBar() {
             <Nav.Link > <Link to="/contact" > Iletisim</Link></Nav.Link>
           </Nav>
 
+          <CgInstagram/>
+         
+
          <span>0537 637 06 81</span>
 
         </Navbar.Collapse>
