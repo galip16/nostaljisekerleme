@@ -23,7 +23,7 @@ function Products() {
                             <Col md={12} lg={12} xl={9} className="" style={{margin:"auto"}} >
                                 <Card.Body className="d-flex flex-column justify-content-center text-center text-md-left" style={{"height":"100%", width:"100%"}} >
                                   <Card.Title className="productTitle" > <h4>Pamuk Seker</h4></Card.Title>
-                                  <Card.Text className="productDescribe ">Evimizin mutfağında tamamen steril ortamda doğal şeker kullanarak üretmekteyiz. Renklendirmeyi ise müşterilerimizin sağlığını düşünerek tamamen meyve ve sebzelerden yapmaktayız. Örneğin yeşil rengi verirken Kivi kullanmak gibi..
+                                  <Card.Text className="productDescribe  ">Evimizin mutfağında tamamen steril ortamda doğal şeker kullanarak üretmekteyiz. Renklendirmeyi ise müşterilerimizin sağlığını düşünerek tamamen meyve ve sebzelerden yapmaktayız. Örneğin yeşil rengi verirken Kivi kullanmak gibi..
                                   </Card.Text>
                                 </Card.Body>
                             </Col>
