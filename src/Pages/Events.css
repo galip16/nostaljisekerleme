@@ -1,5 +1,4 @@
-.eventsCardStyle {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+.cardStyle {
+  width: 25rem;
+  border: 1px solid;
 }

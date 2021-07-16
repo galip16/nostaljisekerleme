@@ -28,6 +28,7 @@ function Contact() {
 
         <Card>
           <Card.Img
+            className="imgStyle"
             variant="top"
             src="https://static.wixstatic.com/media/nsplsh_817afd2b04024c16a16da0f597173f92~mv2.jpg/v1/fill/w_613,h_460,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01/nsplsh_817afd2b04024c16a16da0f597173f92~mv2.webp"
           />
