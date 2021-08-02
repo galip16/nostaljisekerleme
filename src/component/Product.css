@@ -1,0 +1,13 @@
+.productTitle h4{
+font-weight: 700;
+}
+
+.mainHeader h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+@media  (min-width:1200px) {
+    .productDescribe{
+        font-size: 1.2rem;
+    }
+}
