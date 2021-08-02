@@ -6,13 +6,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Logo from "./Images/logo1.png";
 
 import { CgInstagram, CgFacebook } from "react-icons/cg";
+import { FiPhoneCall } from "react-icons/fi";
+
 
 function NavBar() {
   const [isMobile, setIsMobile] = useState(false);
 
   //choose the screen size
   const handleResize = () => {
+
     if (window.innerWidth < 720) {
+   
       setIsMobile(true);
     } else {
       setIsMobile(false);
@@ -24,6 +28,7 @@ function NavBar() {
     window.addEventListener("resize", handleResize);
   });
   return (
+
     <Navbar bg="light" expand="lg">
       <Container>
         <Navbar.Brand
@@ -79,6 +84,7 @@ function NavBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+
   );
 }
 export default NavBar;
