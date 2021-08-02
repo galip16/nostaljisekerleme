@@ -1,0 +1,85 @@
+/* .backgroundAbout {
+
+    background-color: red;
+    height: 100vh;
+    /* background: url("../Images/seker.webp"); */
+    /* background-size:cover;
+    background-repeat: no-repeat;
+    opacity: 0.5; */
+    /* z-index: -1; */
+
+
+.cardbody {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    opacity: 1;
+    background-color: rgba(230, 141, 185, 0.5);
+    height: 250vh;
+    
+    line-height: 3;
+    
+    font-size: 20px;
+    
+
+}
+
+.cardText {
+
+    justify-content: center;
+    width: 60vw;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media(max-width: 576px) {
+
+    .cardText {    
+
+        padding: 10px 50px 0px 50px;
+
+    }
+}
+
+@media(min-width:577px) and (max-width: 800px) {
+
+    .cardText {    
+
+        padding: 10px 70px 0px 70px;
+
+    }
+}
+
+.imageAbout {
+
+    margin-top: 100px;
+    width: 50vw;
+}
+
+.headerAbout {
+
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    color: white !important;
+    background-color: rosybrown !important;
+}
+
+
+
+/* div::after {
+  content: "";
+  background: url("../Images/seker.webp");
+  opacity: 0.1;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;   
+} */
