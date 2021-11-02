@@ -2,6 +2,9 @@
 # Deadline : 08 Nov Pazartesi
 
 
+Sayfa genisligi max 1000px;
+
+
 
 
 
